@@ -1,0 +1,29 @@
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+tr td{
+    text-align: left;
+}
+td, th{
+    border: 1px solid;
+    padding: 8px;
+}
+
+#header{
+    background-color: orange;
+    text-align: center;
+}
+
+#header2{
+    text-align: center;
+}
+
+tfoot tr th{
+    text-align: left;
+}
