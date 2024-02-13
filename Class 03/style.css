@@ -16,21 +16,21 @@ nav ul{
     float: right;
     margin-right: 20px;
 }
-
 nav ul li{
+    /*alinear de forma vertical*/
     display: inline-block;
     line-height: 80px;
+    /*separa los caracteres del menu*/
     margin: 0 5px;
 }
 
 nav ul li a{
-    color:#fff;
-    font-size: 20px;
+    color: #fff;
+    font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: capitalize;
 }
-
 li a.active, li a:hover{
     background: orange;
     transition: .5s;
@@ -41,21 +41,21 @@ li a.active{
     transition: .5s;
 }
 
-section .banner{
-    background: linear-gradient(to left, rgb(255 255 255), rgb(234 243 240));
+section.banner{
+    background: linear-gradient(to left, rgb(255 255 255),rgb(234 243 240));
     padding: 3rem 0;
 }
 
-.containerA{
+.container{
     width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-gap:2rem;
+    grid-gap: 2rem;
 }
 
-.boxB{
-    display: flex;
+.col1{
+    display:flex;
     align-items: center;
     justify-content: center;
 }
@@ -64,29 +64,113 @@ section .banner{
     width: 70%;
 }
 
-.boxB2{
-    padding: 1rem 2rem;
+.col2{
+    padding: 1rem 3rem;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-direction: column;
 }
 
 h1{
     font-size: 2rem;
-    color:#840000;
+    color: #840000;
 }
 
 #txtBanner{
-    margin:2rem 0;
+    margin: 2rem 0;
     font-size: 1.3rem;
-    line-height: 2rem;
+    line-height:2rem;
     text-align: justify;
 }
 
 .btnBanner{
-    background: #2284;
-    color: #fff;
+    background: #840000;
+    color:#fff;
     padding: 10px 20px;
     border-radius: 25px;
-    text-decoration: none;
 }
+
+/*servicios*/
+.services{
+    padding: 3rem 0;
+}
+
+.subServices{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+
+.containerB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.boxS{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0/ 6%);
+}
+
+.boxS img{
+    width: 100px;
+}
+
+h3{
+    color: #4c4c4c;
+    margin: 10px 0;
+}
+
+.boxS p{
+    text-align: center;
+}
+
+
+.portafolio{
+    padding: 3rem 0;
+}
+
+.subPortafolio{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+
+.containerP{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.boxP{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0/ 6%);
+}
+
+.boxP img{
+    width: 100px;
+}
+
+h3{
+    color: #4c4c4c;
+    margin: 10px 0;
+}
+
+.boxP p{
+    text-align: center;
+}
+
+/**/
+
